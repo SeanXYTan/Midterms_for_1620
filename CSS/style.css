@@ -1,4 +1,3 @@
-/* you can change any of the default styles below */
 
 .navigation {
   background-color: #2a2b2a;
@@ -8,7 +7,6 @@
   font-size: 22px;;
 }
 
-/* Style the links inside the navigation bar */
 .navigation a {
   float: left;
   color: #f8f4e3;
@@ -18,13 +16,11 @@
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .navigation a:hover {
   background-color: #929087;
   color: black;
 }
 
-/* Add a color to the active/current link */
 .navigation a.active {
   background-color: #E3B7B6;
   color: #2a2b2a;
@@ -32,6 +28,11 @@
 
 .navigation a:visited {
   color: azure;
+}
+
+.navigation a:hover {
+  background-color: #929087;
+  color: black;
 }
 
 .sticky {
@@ -42,8 +43,11 @@
 
 .container {
 	display: flex;
-	border: 10px solid #E22856;
+  width: 100%;
+  box-sizing: border-box;
 	flex-wrap: nowrap;
+  padding-left: 30%;
+  justify-content: left;
 }
 
 .box {
@@ -51,6 +55,9 @@
   border: 3px solid black;
   padding: 30px;
   text-align: center;
+  height: 200px;
+  width: 400px;
+  margin-left: 20px;
 }
 
 * {
@@ -66,6 +73,11 @@ p {
   color: #2A2B2A;
   font-family: 'Montserrat';
   font-size: 20px;
+  margin: 3px;
+}
+
+#small {
+  font-size: 5px;
 }
 
 img {
