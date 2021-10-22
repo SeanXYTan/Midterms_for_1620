@@ -16,13 +16,8 @@
   font-size: 17px;
 }
 
-.navigation a:hover {
-  background-color: #929087;
-  color: black;
-}
-
 .navigation a.active {
-  background-color: #E3B7B6;
+  background-color: #E22856;
   color: #2a2b2a;
 }
 
