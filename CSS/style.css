@@ -1,25 +1,74 @@
 /* you can change any of the default styles below */
 
+.navigation {
+  background-color: #2a2b2a;
+  overflow: hidden;
+  position: sticky;
+  font-family: 'Quicksand';
+  font-size: 22px;;
+}
+
+/* Style the links inside the navigation bar */
+.navigation a {
+  float: left;
+  color: #f8f4e3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navigation a:hover {
+  background-color: #929087;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.navigation a.active {
+  background-color: #E3B7B6;
+  color: #2a2b2a;
+}
+
+.navigation a:visited {
+  color: azure;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.container {
+	display: flex;
+	border: 10px solid #E22856;
+	flex-wrap: nowrap;
+}
+
+.box {
+  background-color: #E3B7B6;
+  border: 3px solid black;
+  padding: 30px;
+  text-align: center;
+}
+
 * {
   margin: 0;
-  padding: 0;
-  font-size: 10px;
 }
 
-nav {
-  height: 15px;
-}
-
-main {
-  background-color: #F8F4E3
-  height: 100vh;
+body {
+  background-color: #F8F4E3;
+  padding-top: 60px;
 }
 
 p {
-  color: 2A2B2A;
-  fontsize: 1.8rem;
+  color: #2A2B2A;
+  font-family: 'Montserrat';
+  font-size: 20px;
 }
 
 img {
   max-width: 400px;
+  max-height: 400px;
 }
