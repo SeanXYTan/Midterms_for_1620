@@ -43,11 +43,12 @@
 
 .container {
 	display: flex;
+  flex-direction: column 2;
   width: 100%;
   box-sizing: border-box;
 	flex-wrap: nowrap;
-  padding-left: 30%;
-  justify-content: left;
+  justify-content: center;
+  align-items: center; 
 }
 
 .box {
@@ -81,6 +82,9 @@ p {
 }
 
 img {
-  max-width: 400px;
-  max-height: 400px;
+  float: left;
+  height: 260px;
+  object-fit: cover;
+  border: 3px solid black;
 }
+
