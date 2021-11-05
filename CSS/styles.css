@@ -1,10 +1,10 @@
-
+/*Start of navigation CSS*/
 .navigation {
   background-color: #2a2b2a;
   overflow: hidden;
   position: sticky;
   font-family: 'Quicksand';
-  font-size: 22px;;
+  font-size: 22px;
 }
 
 .navigation a {
@@ -40,6 +40,7 @@
   top: 0;
   width: 100%;
 }
+/*End of navigation CSS*/
 
 .container {
 	display: flex;
